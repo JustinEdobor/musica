@@ -1,0 +1,28 @@
+.menu-bar {
+    display:block;
+    background-color: rgba(0,0,0,.2);
+    text-align:center;
+    margin:1.5em 1em;
+    padding:0.3em 0.2em;
+    border-radius:100px;
+}
+.menu-bar div{
+    margin:1.5em 0;
+    padding:0;
+}
+.cold{
+    fill-opacity:0.25;
+}
+.cold:hover {
+    fill-opacity:1;
+    fill: var(--icon-color);
+}
+.active {
+    fill: var(--icon-color);
+}
+.side-bar {
+    display:block;
+    position:fixed;
+    height:100vh;
+    padding-top:1.4em;
+}

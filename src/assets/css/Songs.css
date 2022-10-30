@@ -1,0 +1,19 @@
+.song_section::-webkit-scrollbar {
+    display: none;
+} 
+.song_section {
+    display:flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding:1em 0;
+    margin:1em 0;
+}
+.song_section h3 {
+    margin-top:0.4em;
+}
+.song_block {
+    margin-right:2em;
+}

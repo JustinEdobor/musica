@@ -1,0 +1,22 @@
+.app {
+    width:100%;
+}
+.flex {
+    display:flex;
+    margin-top:2em;
+}
+.bottom {
+    display:block;
+    margin:5em 0;
+}
+.top {
+    width:100%;
+    padding:0;
+    margin:0;
+    display:flex;
+    margin:2em 0;
+}
+.contain {
+    padding:1em 2em 2.3em 5.3em;
+    width:100%;
+}

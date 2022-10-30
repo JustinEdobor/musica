@@ -1,0 +1,49 @@
+.fl {
+    display:flex;
+    justify-content:space-between;
+    background-color: var(--chart-color);
+    margin:1em 0;
+    border-radius:20px;
+    align-items:center;
+    padding:0.5em 1em;
+    width:100%;
+}
+.fl h2, .fl p {
+    margin:0;
+    padding:0;
+}
+.artist {
+    color: var(--artist-text-color);
+}
+.chart_details {
+    margin:0 1em;
+    width:100%;
+}
+.chart {
+    width:40%;
+}
+.divide {
+    display:flex;
+    align-items:center;
+}
+.fl svg {
+    margin:0 0.4em;
+}
+.fl svg:hover, .fl svg:active, .fl svg:focus {
+    fill: var(--icon-color);
+    fill-opacity:1;
+}
+.like {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    outline:2px solid #222;
+    width:30px;
+    height:30px;
+}
+@media only screen and (max-width: 740px) {
+    .chart {
+        width:100%;
+    }
+}

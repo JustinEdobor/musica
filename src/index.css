@@ -1,0 +1,36 @@
+:root {
+    --background-color: #181d20;
+    --chart-color: #131b1d;
+    --artist-text-color: #585858;
+    --icon-color: #FACD66;
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+    font-size:1rem;
+    padding:0px;
+    margin:0px;
+    background-color: var(--background-color);
+    color:#fff;
+}
+h1 {
+    font-size:1.4em;
+}
+h2 {
+    font-size:1em;
+    color:#92979a;
+}
+h3 {
+    font-size:1em;
+    color:#92979a;
+}
+p {
+    font-size:0.7em;
+    color:#92979a;
+}
